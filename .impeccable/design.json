@@ -1,0 +1,356 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-07T16:51:38+00:00",
+  "title": "Design System: Nuances Brésil Brest Harteloire",
+  "extensions": {
+    "colorMeta": {
+      "ampoule-amber": {
+        "role": "primary",
+        "displayName": "Ampoule Amber",
+        "canonical": "oklch(80.3% 0.152 80)",
+        "tonalRamp": [
+          "#200C00",
+          "#402500",
+          "#634000",
+          "#875D00",
+          "#AE7C07",
+          "#D69C24",
+          "#FDBE4A",
+          "#FFE482"
+        ]
+      },
+      "sable-dune": {
+        "role": "neutral",
+        "displayName": "Sable Dune",
+        "canonical": "oklch(93.1% 0.018 78)",
+        "tonalRamp": [
+          "#13110F",
+          "#2D2B27",
+          "#4B4742",
+          "#6A655F",
+          "#8B857E",
+          "#ADA79D",
+          "#D1C9BF",
+          "#F5EDE1"
+        ]
+      },
+      "lin-blanc": {
+        "role": "neutral",
+        "displayName": "Lin Blanc",
+        "canonical": "oklch(98.0% 0.009 85)",
+        "tonalRamp": [
+          "#121110",
+          "#2C2B29",
+          "#494745",
+          "#676663",
+          "#888682",
+          "#AAA7A3",
+          "#CDCAC5",
+          "#F1EEE8"
+        ]
+      },
+      "galet-stone": {
+        "role": "neutral",
+        "displayName": "Galet Stone",
+        "canonical": "oklch(87.1% 0.022 77)",
+        "tonalRamp": [
+          "#14110E",
+          "#2E2B26",
+          "#4C4740",
+          "#6B655D",
+          "#8C857B",
+          "#AFA69B",
+          "#D3C9BC",
+          "#F7EDE0"
+        ]
+      },
+      "mur-papier": {
+        "role": "neutral",
+        "displayName": "Mur Papier",
+        "canonical": "oklch(89.2% 0.024 80)",
+        "tonalRamp": [
+          "#14110D",
+          "#2E2B25",
+          "#4C4740",
+          "#6B655C",
+          "#8C857A",
+          "#AFA79A",
+          "#D3C9BA",
+          "#F7EDDE"
+        ]
+      },
+      "ardoise-slate": {
+        "role": "neutral",
+        "displayName": "Ardoise Slate",
+        "canonical": "oklch(33.8% 0.008 75)",
+        "tonalRamp": [
+          "#13110E",
+          "#2E2B27",
+          "#4A4743",
+          "#686662",
+          "#888682",
+          "#AAA7A4",
+          "#CCCAC7",
+          "#F0EEEC"
+        ]
+      },
+      "encre-ink": {
+        "role": "neutral",
+        "displayName": "Encre Ink",
+        "canonical": "oklch(23.1% 0.004 85)",
+        "tonalRamp": [
+          "#121110",
+          "#2C2B29",
+          "#484746",
+          "#676664",
+          "#878684",
+          "#A8A7A6",
+          "#CBCAC9",
+          "#EFEEED"
+        ]
+      },
+      "pierre-gray": {
+        "role": "neutral",
+        "displayName": "Pierre Gray",
+        "canonical": "oklch(43.4% 0.012 73)",
+        "tonalRamp": [
+          "#14110D",
+          "#2F2B26",
+          "#4C4741",
+          "#6A655F",
+          "#8A8580",
+          "#ABA7A2",
+          "#CECAC5",
+          "#F1EEEA"
+        ]
+      },
+      "pierre-clair": {
+        "role": "neutral",
+        "displayName": "Pierre Clair",
+        "canonical": "oklch(83.0% 0.020 77)",
+        "tonalRamp": [
+          "#14110D",
+          "#2E2B26",
+          "#4C4740",
+          "#6B655D",
+          "#8C857B",
+          "#AEA69B",
+          "#D2C9BC",
+          "#F6EDE1"
+        ]
+      },
+      "brume-gray": {
+        "role": "neutral",
+        "displayName": "Brume Gray",
+        "canonical": "oklch(71.3% 0.017 74)",
+        "tonalRamp": [
+          "#14110D",
+          "#2F2B26",
+          "#4C4741",
+          "#6B655D",
+          "#8C857C",
+          "#AEA69C",
+          "#D1C9C0",
+          "#F4EDE5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display-hero": {
+        "displayName": "Display hero",
+        "purpose": "Titre de l'accueil uniquement : deux lignes masquées qui montent."
+      },
+      "display-section": {
+        "displayName": "Display section",
+        "purpose": "Titres de section, révélés ligne par ligne."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Titres de cartes et d'étapes."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Texte courant, mesure 62ch maximum."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Navigation, boutons en pilule, tags."
+      },
+      "label-disc": {
+        "displayName": "Label disc",
+        "purpose": "Intitulé du disque d'action."
+      }
+    },
+    "shadows": [
+      {
+        "name": "card",
+        "value": "0 22px 44px -26px rgba(30,29,27,0.4), 0 2px 6px rgba(30,29,27,0.06)",
+        "purpose": "Cartes de prestations et cartes d’avis."
+      },
+      {
+        "name": "disc",
+        "value": "0 18px 30px -16px rgba(30,29,27,0.5), 0 3px 8px rgba(30,29,27,0.12)",
+        "purpose": "Disque d'action et badge rotatif."
+      },
+      {
+        "name": "photo",
+        "value": "0 24px 40px -26px rgba(30,29,27,0.45), 0 2px 6px rgba(30,29,27,0.06)",
+        "purpose": "Photos de la galerie."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Sortie exponentielle : survols, apparitions, menus."
+      },
+      {
+        "name": "ease-inout",
+        "value": "cubic-bezier(0.76, 0, 0.24, 1)",
+        "purpose": "Ouverture du menu en cercle et boucles de flèche."
+      },
+      {
+        "name": "gsap-expo-out",
+        "value": "expo.out",
+        "purpose": "Entrées de titres, de cartes et de miroirs."
+      },
+      {
+        "name": "gsap-expo-inout",
+        "value": "expo.inOut",
+        "purpose": "Ouverture circulaire du préchargeur sur l'accueil."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "menu / pin",
+        "value": "900px"
+      },
+      {
+        "name": "grille prestations",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Disc Button",
+      "kind": "button",
+      "refersTo": "button-disc",
+      "description": "Action principale (réserver) : disque ambre qui se remplit d'encre au survol.",
+      "html": "<a class=\"ds-disc\" href=\"#\"><span>Prendre rendez‑vous</span></a>",
+      "css": "\n.ds-disc{position:relative;display:grid;place-items:center;width:9.5rem;aspect-ratio:1;border-radius:50%;background:var(--ampoule,#F2B233);color:var(--encre,#1E1D1B);text-align:center;font:720 1.1875rem/1.22 'Bricolage Grotesque','Arial Narrow',Arial,sans-serif;font-stretch:85%;letter-spacing:-0.01em;text-decoration:none;overflow:hidden;isolation:isolate;box-shadow:0 18px 30px -16px rgba(30,29,27,.5),0 3px 8px rgba(30,29,27,.12);transition:color .4s cubic-bezier(.16,1,.3,1)}\n.ds-disc::before{content:\"\";position:absolute;inset:0;border-radius:50%;background:var(--encre,#1E1D1B);transform:scale(0);transition:transform .6s cubic-bezier(.16,1,.3,1);z-index:-1}\n.ds-disc:hover,.ds-disc:focus-visible{color:var(--sable,#EFE7DB)}\n.ds-disc:hover::before,.ds-disc:focus-visible::before{transform:scale(1.04)}\n.ds-disc span{max-width:6.4em}\n"
+    },
+    {
+      "name": "Pill Button",
+      "kind": "button",
+      "refersTo": "button-pill",
+      "description": "Action secondaire : pilule à filet, pleine en variante encre.",
+      "html": "<a class=\"ds-pill\" href=\"#\">Itinéraire</a> <a class=\"ds-pill ds-pill-ink\" href=\"#\">Prendre rendez-vous</a>",
+      "css": ".ds-pill{display:inline-flex;align-items:center;height:3.1rem;padding:0 1.45rem;border:1.5px solid var(--encre,#1E1D1B);border-radius:99px;font:650 1rem/1 'Figtree',Arial,sans-serif;color:var(--encre,#1E1D1B);text-decoration:none;transition:background-color .35s,color .35s,border-color .35s}.ds-pill:hover,.ds-pill:focus-visible{background:var(--encre,#1E1D1B);color:var(--sable,#EFE7DB)}.ds-pill-ink{background:var(--encre,#1E1D1B);color:var(--sable,#EFE7DB)}.ds-pill-ink:hover,.ds-pill-ink:focus-visible{background:var(--ampoule,#F2B233);border-color:var(--ampoule,#F2B233);color:var(--encre,#1E1D1B)}"
+    },
+    {
+      "name": "Mirror Frame",
+      "kind": "custom",
+      "refersTo": "rounded.mirror",
+      "description": "Photo dans un disque de verre entouré d’un anneau d’encre double. Signature du système.",
+      "html": "<figure class=\"ds-mirror\"><div class=\"ds-glass\"></div></figure>",
+      "css": ".ds-mirror{position:relative;width:11rem;aspect-ratio:1;margin:14px;border-radius:50%}.ds-mirror::before{content:'';position:absolute;inset:-12px;border:2px solid var(--encre,#1E1D1B);border-radius:50%}.ds-glass{position:absolute;inset:0;border-radius:50%;overflow:hidden;background:var(--galet,#DDD3C5)}.ds-glass::after{content:'';position:absolute;inset:-25%;background:linear-gradient(112deg,rgba(255,255,255,0) 40%,rgba(255,255,255,.3) 48%,rgba(255,255,255,0) 57%)}"
+    },
+    {
+      "name": "Service Card",
+      "kind": "card",
+      "refersTo": "card-service",
+      "description": "Carte de prestation : titre display, texte, tags. Variante sombre pour la prestation vedette.",
+      "html": "<article class=\"ds-card\"><h3>Coupe femme</h3><p>Une coupe qui se coiffe presque seule le matin.</p><ul class=\"ds-chips\"><li>Sur mesure</li><li>Conseils</li></ul></article>",
+      "css": ".ds-card{background:var(--lin,#FBF8F2);color:var(--encre,#1E1D1B);border-radius:16px;padding:1.8rem;max-width:22rem;box-shadow:0 22px 44px -26px rgba(30,29,27,.4),0 2px 6px rgba(30,29,27,.06);font:400 1.0625rem/1.62 'Figtree',Arial,sans-serif;transition:transform .5s cubic-bezier(.16,1,.3,1)}.ds-card:hover{transform:translateY(-3px)}.ds-card h3{margin:0 0 .6rem;font:680 1.7rem/1.12 'Bricolage Grotesque','Arial Narrow',Arial,sans-serif;font-stretch:82%;letter-spacing:-.02em}.ds-card p{margin:0 0 1rem;color:#55504A}.ds-chips{display:flex;gap:.5rem;margin:0;padding:0;list-style:none}.ds-chips li{padding:.28rem .85rem;border:1px solid currentColor;border-radius:99px;font:600 .8125rem/1.3 'Figtree',Arial,sans-serif;opacity:.82}"
+    },
+    {
+      "name": "Review Card",
+      "kind": "card",
+      "refersTo": "card-review",
+      "description": "Avis client repris mot pour mot, avec avatar ambre et filet de séparation.",
+      "html": "<article class=\"ds-review\"><p>Ambiance agréable et très rassurante !</p><footer><span class=\"ds-ini\">R</span><cite>Revan Trak</cite></footer></article>",
+      "css": ".ds-review{background:var(--lin,#FBF8F2);color:var(--encre,#1E1D1B);border-radius:16px;padding:1.8rem;max-width:22rem;box-shadow:0 22px 40px -26px rgba(30,29,27,.4),0 2px 6px rgba(30,29,27,.06);font:400 1.0625rem/1.62 'Figtree',Arial,sans-serif}.ds-review p{margin:0 0 1.4rem}.ds-review footer{display:flex;align-items:center;gap:.85rem;padding-top:1.2rem;border-top:1px solid rgba(30,29,27,.16)}.ds-ini{display:grid;place-items:center;width:2.6rem;height:2.6rem;border-radius:50%;background:var(--ampoule,#F2B233);font:780 1.15rem 'Bricolage Grotesque',Arial,sans-serif}.ds-review cite{font:700 1.15rem 'Bricolage Grotesque',Arial,sans-serif;font-stretch:88%;font-style:normal}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "button-pill-ink",
+      "description": "Barre de navigation : marque, liens soulignés par un trait qui se dessine, pilule d'action.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-brand\" href=\"#\">Nuances Brésil</a><span class=\"ds-links\"><a href=\"#\">Le salon</a><a href=\"#\">Prestations</a><a href=\"#\">Avis</a></span><a class=\"ds-cta\" href=\"#\">Rendez-vous</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:1.6rem;padding:.8rem 1.2rem;background:var(--sable,#EFE7DB);color:var(--encre,#1E1D1B);font:560 .96rem 'Figtree',Arial,sans-serif}.ds-brand{margin-right:auto;font:760 1.4rem 'Bricolage Grotesque',Arial,sans-serif;font-stretch:85%;letter-spacing:-.02em;color:inherit;text-decoration:none}.ds-links{display:flex;gap:1.5rem}.ds-links a{color:inherit;text-decoration:none;background:linear-gradient(currentColor,currentColor) 0 100%/0 1.5px no-repeat;transition:background-size .45s cubic-bezier(.16,1,.3,1)}.ds-links a:hover{background-size:100% 1.5px}.ds-cta{display:inline-flex;align-items:center;height:2.7rem;padding:0 1.3rem;border-radius:99px;background:var(--encre,#1E1D1B);color:var(--sable,#EFE7DB);font-weight:650;text-decoration:none}.ds-cta:hover{background:var(--ampoule,#F2B233);color:var(--encre,#1E1D1B)}"
+    },
+    {
+      "name": "Pendant Bulb",
+      "kind": "custom",
+      "refersTo": "colors.ampoule-amber",
+      "description": "Ampoule suspendue : cordon, rosace, douille, verre ambre. Oscille et suit le curseur.",
+      "html": "<div class=\"ds-bulb\"><span class=\"ds-cord\"></span><span class=\"ds-lamp\"></span></div>",
+      "css": ".ds-bulb{display:flex;flex-direction:column;align-items:center;width:3rem;transform-origin:50% 0;animation:ds-sway 5s ease-in-out infinite alternate}.ds-cord{position:relative;width:1.5px;height:4.5rem;background:var(--encre,#1E1D1B)}.ds-cord::before{content:'';position:absolute;left:50%;top:-.32rem;width:1.2rem;height:.4rem;translate:-50% 0;background:var(--encre,#1E1D1B);border-radius:3px}.ds-lamp{position:relative;width:1.9rem;height:2.4rem;margin-top:.55rem;border-radius:50% 50% 50% 50%/56% 56% 44% 44%;background:var(--ampoule,#F2B233);box-shadow:inset -4px -5px 0 rgba(30,29,27,.08)}.ds-lamp::before{content:'';position:absolute;left:50%;top:-.7rem;width:.85rem;height:.85rem;translate:-50% 0;background:var(--encre,#1E1D1B);border-radius:3px 3px 1px 1px}@keyframes ds-sway{from{transform:rotate(-3deg)}to{transform:rotate(3deg)}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le miroir",
+    "overview": "**Creative North Star: \"Le miroir\"**\n\nLe site est le mur du salon, celui des photos : des miroirs ronds accrochés sur un papier peint de feuilles, sous des ampoules suspendues. Toute la structure descend de cette image. Une photo vit dans un cercle à double anneau, une section s'ouvre sur la suivante par un cercle qui s'agrandit, et la visite se termine là où chaque coupe se termine, devant le miroir, quand les ampoules s'allument et que la page se remplit d'ambre.\n\nLe monde est accueillant et énergique sans être criard. Les surfaces sont des neutres chauds (sable, lin, galet) et deux pièces sombres (ardoise, encre). La seule couleur est la lumière des ampoules. Les titres sont lourds, étroits et serrés, posés en très grand ; le texte est rond et lisible. Rien n'est lisse pour le plaisir : chaque motif vient de la pièce réelle (miroirs, feuilles, suspensions, flacons en vrac, bois gravé), jamais d'un catalogue de décors.",
+    "keyCharacteristics": [
+      "Un seul accent chromatique, l'ambre, traité comme de la lumière et non comme une couleur de marque.",
+      "Les cercles organisent la page : miroirs, disque d'action, pastilles, ouvertures de sections.",
+      "Papier peint de feuilles géométriques, ton sur ton, uniquement sur des aplats.",
+      "Titres géants en grotesque condensée lourde ; interlignes serrés sur les titres, confortables sur le texte.",
+      "Mouvement chorégraphié section par section : aucune entrée n'est copiée d'une section à l'autre."
+    ],
+    "rules": [
+      {
+        "name": "The One Light Rule",
+        "body": "L'ambre est la seule couleur. Elle apparaît comme de la lumière (ampoule, disque, remplissage), jamais comme une seconde couleur de marque. Aucune autre teinte saturée n'entre dans le système.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tone-on-Tone Rule",
+        "body": "Le papier peint de feuilles est tracé en encre à 11 % d'opacité : il prend la teinte du sol qu'il habille, sable, galet ou ambre. Il ne se pose jamais sur une photo ni sur une pièce sombre.",
+        "section": "colors"
+      },
+      {
+        "name": "The Giant-Then-Small Rule",
+        "body": "Un titre géant est toujours suivi d'un texte courant de taille normale, sans palier intermédiaire. Le contraste de taille fait la hiérarchie.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tight-Only-Where-Huge Rule",
+        "body": "Les interlignes serrés (0,9 à 1,05) sont réservés aux titres de plus de 2,5 rem. Tout texte lu en paragraphe garde 1,3 ou plus (1,62 pour le courant).",
+        "section": "typography"
+      },
+      {
+        "name": "The Offset Rule",
+        "body": "Toute ombre a un décalage vertical et un flou. Aucun contour lumineux sans décalage, aucune ombre dure.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Ring Rule",
+        "body": "Une photo hors galerie vit toujours dans un miroir à double anneau. Pas de photo carrée posée nue sur une section.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Open Rule",
+        "body": "Un nouvel élément visuel s'ouvre en cercle depuis son centre. Les rideaux rectangulaires sont réservés aux titres (lignes masquées qui montent).",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "**Do** garder Ampoule Amber (#F2B233) comme seule couleur saturée, avec du texte Encre Ink dessus.",
+      "**Do** mettre toute photo hors galerie dans un miroir à double anneau (2 px d'encre, 12 px d'écart).",
+      "**Do** ouvrir les nouveaux éléments par un cercle depuis leur centre, avec une sortie exponentielle (`expo.out`).",
+      "**Do** réserver les interlignes serrés aux titres de plus de 2,5 rem.",
+      "**Do** dessiner les icônes en SVG au trait de 1,8 px, au même gabarit.",
+      "**Do** garder une version allégée de chaque animation sous `prefers-reduced-motion`, et simplifier l'inclinaison, le curseur et la pinning sur mobile."
+    ],
+    "donts": [
+      "**Don't** introduire une seconde couleur d'accent, ni remplacer l'ambre par une teinte terre cuite.",
+      "**Don't** poser le papier peint de feuilles sur une photo ou une pièce sombre.",
+      "**Don't** utiliser de la couleur ambre pour du texte courant sur fond clair (contraste insuffisant).",
+      "**Don't** aligner des cartes de même taille avec une icône, un titre et un texte : les formats restent inégaux et les compositions distinctes.",
+      "**Don't** ajouter de prix, de chiffres de fréquentation, de notes en étoiles ni d'avis inventés : seuls les faits fournis ou dérivables des horaires apparaissent.",
+      "**Don't** animer autre chose que `transform`, `opacity`, `clip-path` et le tracé SVG dans les parcours de défilement."
+    ]
+  }
+}
