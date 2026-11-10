@@ -28,9 +28,15 @@ python3 -m http.server 8000
 
 Puis ouvrir http://localhost:8000. N'importe quel serveur statique convient.
 
-## Déployer
+## Déployer (GitHub Pages)
 
-Copier le dossier tel quel sur un hébergement statique (GitHub Pages, Netlify, Vercel, OVH…). Rien à compiler.
+Le site est publié par le workflow `.github/workflows/pages.yml` à chaque fusion dans `main` (ou à la main, onglet *Actions* puis *Run workflow*). Seuls `index.html`, `robots.txt`, `sitemap.xml` et `assets/` sont publiés.
+
+Réglage à faire une seule fois : **Settings → Pages → Build and deployment → Source : GitHub Actions**.
+
+Adresse : https://loopifyagency.github.io/site-nuances-bresil-brest/
+
+Avec un nom de domaine personnalisé, mettre à jour l'URL canonique, les balises `og:` et le JSON-LD dans `index.html`, ainsi que `robots.txt` et `sitemap.xml`.
 
 ## Ce qui reste à confirmer ou à fournir
 
@@ -40,7 +46,6 @@ Le site ne contient aucun chiffre, prix ni avis inventé. À vérifier avant la 
 - **Chiffres clés** : 59 h par semaine, 6 jours sur 7 et 12 textures (1A à 4C) sont dérivés des horaires et de la classification courante des textures. Pour afficher des chiffres réels (années d'ouverture, clients accompagnés…), modifier la phrase de `#chiffres` dans `index.html` : chaque nombre est un `<span class="odo" data-odo="…">`.
 - **Prestations** : les six cartes sont tirées des avis réels. Aucun tarif n'est affiché, la carte complète renvoie vers Planity. Une liste exacte permettrait d'ajuster les cartes.
 - **Accroche** : « lisses, ondulés, bouclés ou crépus » suppose que le salon accueille toutes les textures.
-- **Adresse web** : renseigner l'URL canonique et une image `og:image` en URL absolue dans `<head>` une fois le domaine connu.
 - **Logo** : aucun fichier fourni. La marque en en-tête (anneau + boucle) est un repère provisoire à remplacer par le logo officiel (visible sur la façade).
 - **Mentions légales** : non incluses.
 - **Carte** : l'iframe Google Maps ne s'affiche qu'avec un accès réseau ; tout le bloc est cliquable vers Google Maps (nouvel onglet).
